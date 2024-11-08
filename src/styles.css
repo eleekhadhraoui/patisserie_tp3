@@ -1,0 +1,67 @@
+body {
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6e4d9;
+    background-image: url('\assets\images\top-view-delicious-cake-arrangement.jpg') ;
+    background-size: cover; 
+    background-position: top ;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.searchbox {
+    padding: 10px;
+    margin: 10px 0;
+    width:100%;
+    }
+    
+    main > article >button{
+        background-color: #c76857; /* Couleur de fond rouge */
+        color: white;              /* Couleur du texte */
+        border: none;              /* Pas de bordure */
+        padding: 10px 20px;        /* Padding pour agrandir le bouton */
+        font-size: 20px;           /* Taille de la police */
+        border-radius: 25px;       /* Bordures arrondies pour un effet moderne */
+        display: inline-flex;      /* Alignement en ligne */
+        align-items: center;       /* Centrer verticalement l'icône et le texte */
+        cursor: pointer;           /* Curseur en forme de main */
+        transition: background-color 0.3s ease; /* Animation de changement de couleur */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre subtile pour ajouter du relief */
+    }
+    button:hover {
+        background-color: #e2c4c4; /* Changement de couleur au survol */
+    }
+    .heart-icon {
+        font-size: 20px; /* Taille de l'icône */
+        margin-right: 8px; /* Espace entre l'icône et le texte */
+        transition: transform 0.3s ease; /* Animation de transformation */
+    }
+    .button:hover .heart-icon {
+        transform: scale(1.2); /* Agrandir légèrement l'icône au survol */
+    }
+header,
+section,
+footer,
+aside,
+main,
+article,
+figure {
+    display: block;
+}
+@media (max-width:768px) {
+    #main, #leftmenu{
+        float: none;
+        width: 100%;
+        margin-bottom: 20px ;
+    }
+    #leftmenu ul li a {
+        font-size: 16px;
+        padding: 15px;
+    }
+    nav ul li {
+        float: none;
+        text-align: center;
+    }
+    
+}
